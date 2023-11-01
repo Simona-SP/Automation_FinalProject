@@ -1,0 +1,32 @@
+<suite name="Web test suite" verbose="1"  >
+    <test name="BaseTest">
+        <classes>
+            <class name="Tests.BaseTest"></class>
+        </classes>
+    </test>
+    <test name="FollowUserTest">
+        <classes>
+            <class name="Tests.FollowUserTest"></class>
+        </classes>
+    </test>
+    <test name="LoginTest">
+        <classes>
+            <class name="Tests.LoginTest"></class>
+        </classes>
+    </test>
+    <test name="LogoutTest">
+        <classes>
+            <class name="Tests.LogoutTest"></class>
+        </classes>
+    </test>
+    <test name="UnsuccessfulRegistration">
+        <classes>
+            <class name="Tests.UnsuccessfulRegistration"></class>
+        </classes>
+    </test>
+    <test name="UploadPostTest">
+        <classes>
+            <class name="Tests.UploadPostTest"></class>
+        </classes>
+    </test>
+        </suite>
