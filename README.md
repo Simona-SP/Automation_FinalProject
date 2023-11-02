@@ -38,6 +38,8 @@ Logout from Profile Page
 Uploading Post
 Follow User/ Unfollow User
 
+RESOURCES contains TESTNG folder where the .xml file is located as well as pictures one of which is used for the test Uploading post.
+
 SCREENSHOT:
 Most of the time we think to Capture Screenshot in WebDriver when some kind of error or exception surfaces while practicing testing, to resolve the same the framework has a method.
-getScreenshot() is used to indicates driver to capture a screenshot and store it in //screenshot/packageName directory.
+getScreenshot() is used to indicates driver to capture a screenshot and store it in test/java/Screesnshot directory.
