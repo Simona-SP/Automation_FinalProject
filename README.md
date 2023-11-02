@@ -21,14 +21,14 @@ Java
 
 COMPONENTS
 
-PAGES
+PAGES:
 Inside the "main" folder, each web page is represented by a Java class.
 
-Each class consists ofs: Fileds, which represnets the elements' locators.Onstructor and Methods : to interact with those elements.
+Each class consists ofs: Fileds, which represnets the elements' locators,Constructor and Methods : to interact with those elements.
 All the pages need a driver to interact with the browser
 All the pages inherit from a single AbstractPage - BasePage which holds the WebDriver and WebDriverWait objects encapsulated.
 
-TESTS
+TESTS:
 BaseTest.java: a parent class for all the test classes. Contains all the @Before and @After configuration methods
 Other classes for the test scenarios - 
 
@@ -38,7 +38,7 @@ Logout from Profile Page
 Uploading Post
 Follow User/ Unfollow User
 
-RESOURCES contains TESTNG folder where the .xml file is located as well as pictures one of which is used for the test Uploading post.
+RESOURCES: contains TESTNG folder where the .xml file is located as well as pictures one of which is used for the test Uploading post.
 
 SCREENSHOT:
 Most of the time we think to Capture Screenshot in WebDriver when some kind of error or exception surfaces while practicing testing, to resolve the same the framework has a method.
